@@ -1,0 +1,802 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-size: 62.5%;*/
+}
+
+.custom-icon{
+    font-size: 2.5rem;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 13px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+h2 span{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 13px;
+}
+/*landing page*/
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.porfolio a{
+color: #ccc;
+}
+
+.porfolio1{
+    color: #ccc;
+}
+
+nav{
+    background-color: #2C3965;
+    color: #ccc;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+    margin:0 auto;
+    padding: 0 150px;
+}
+
+.gmail{
+display: flex;
+align-items: center;
+}
+
+.gmail a{
+    color: #ccc;
+    font-size: 13px;
+}
+
+.portf a{
+    color: #ccc;
+}
+
+.contaiiner{
+    height: 92vh;
+    background-image: url(../images/careerpix.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    background-color: rgba();
+}
+
+
+.bgtextcontainer{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.bgtext{
+    color: #2C3965;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 30px;  
+}
+
+.bgtext span{
+color: #BD9F59;
+}
+
+nav div:first-child{
+    font-size: 35px;
+}
+
+.bgtext .download{
+    color: #2C3965;
+    background: #BD9F59;
+    margin-top: 15px;
+}
+
+.bgtext button{
+    padding: 10px;
+    border-radius: 5px;
+    color: #2C3965;
+    background-color: #BD9F59;
+    margin:10px 0 ;
+    border: none;
+    outline: none;
+}
+
+.bgtext button:hover{
+background-color: #2C3965;
+color: #BD9F59;
+transition: 0.5s ease-in-out ;
+transform: scale(1);
+cursor: pointer;
+}
+
+.socialmedia{
+    color: #2C3965;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin-top:100px ;
+    margin-left: 150px;
+   width: 20px;
+   font-size: 50px;
+}
+
+.fa-facebook{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.circle{
+    display: flex;
+    position:relative ;
+}
+
+.bigcircle{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #2C3965;
+    right: 250px;
+    top: 90px;
+}
+
+.smallcircle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid #BD9F59;
+    top: 90px;
+    right: 239px;
+    position: absolute;
+}
+
+.colorcircle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #2C3965;
+    top: 160px;
+    right: 200px;
+    position: absolute;
+    background-color:#2C3965;   
+}
+
+.icons .social{
+    display: block;
+    color: #2C3965;
+    font-size: 60px;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.landingpageSocmedia span{
+    display: none;
+}
+
+.icons h1:hover  {
+    color: #BD9F59;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.icons h1:hover + .landingpageSocmedia span {
+    color: #BD9F59;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+   
+}
+
+.tool{
+    font-size: 30px;
+    margin-left: 50px;
+    color: #2C3965;
+    line-height: 65px;
+    width: 100px;
+}
+
+.tooltip{
+    position: relative;
+    display: block;
+    margin-left: 100px;
+   
+}
+
+.tooltip .tooltiptext{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    width: 150px;
+    background-color: #2C3965;
+    color: #BD9F59;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.tooltip .tooltiptext::before{
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #2C3965 transparent transparent;
+}
+
+.tooltip:hover .tooltiptext{
+    display: block;
+}
+
+
+
+/*porfolio page*/
+
+p{
+    line-height: 30px;
+    color: #2C3965;
+    font-size: 13px;
+}
+
+.name{
+    font-size: 18px;
+    color: #2C3965;
+    margin-left: 200px;
+}
+
+.name span{
+    font-weight:600;
+}
+
+.porfolio{
+ margin: 10px  50px;
+    }
+
+.line{
+    width: 100%;
+    height: 1px;
+    background:#BD9F59;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.line2{
+    width: 100%;
+    height: 1px;
+    background:#BD9F59;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image{
+    position: fixed;
+    top: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.image img{
+    width: 100px;
+    border: 2px solid #2C3965;
+    height: 100px;
+    border-radius:50% ;
+    
+}
+
+.image .identity h3{
+    color: #2C3965;
+    margin-top: 2px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.image .identity h1{
+    color: #2C3965;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.blue-bg{
+    position: fixed;
+    top: 177px;
+    left: 5px;
+    background-color: #2C3965;
+    color: #ccc;
+    padding: 15px 25px;
+    height: 70.5vh;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.blue-bg p{
+    color: #ccc;
+    font-size: 13px;
+}
+
+.contact{
+    margin-top: 15px;
+    color: #ccc;
+}
+
+.skills h2{
+    font-size: 14px;
+}
+
+.socialheading{
+    text-align: center;
+    color: #fff;
+}
+
+
+.skills ul li{
+    list-style-type: square;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+}
+
+.mediatxt{
+    width: 110px;
+    margin-left: 20px;
+}
+
+.media:last-child h5 span{
+    display: block;
+}
+
+.skills .icon{
+    color: #BD9F59 !important;
+    font-size: 100px;
+}
+
+.workcontainer{
+    color: #2C3965;
+   
+}
+
+.workexperience{
+    display: flex;
+   align-items: center;
+   color: #2C3965;
+}
+
+.year1{
+    background-color: #2C3965;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: #ccc;
+    width: 110px;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.compName span{
+    color:#BD9F59 ;
+}
+
+.compName h3{
+    color: #2C3965;
+    font-weight:500;
+    line-height: 20px;
+}
+
+.responsibilities h3{
+    margin-top: 10px;  
+}
+
+.responsibilities ul li{
+    list-style-type: square;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.training{
+    display:flex;
+    justify-content: space-between;
+}
+
+.unizik{
+    display: flex;
+    justify-content: space-between;
+}
+
+/**hire me page*/
+
+body{
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+form{
+    padding: 5px 20px;
+}
+
+
+.navhire{
+  display: flex; 
+  justify-content:space-between;
+  padding: 20px;
+  height: 45px;
+}
+
+.hireForm{
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 40%;
+    height: 93vh;
+    border: 1px solid #2C3965;
+    color: fff; 
+}
+
+.heading{
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #2C3965;
+}
+
+.heading h2{
+    font-size: 22px;
+}
+
+.heading h4{
+    font-size: 16px;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 45px;
+    border:1px solid #2C3965;
+    outline: none;
+}
+
+
+ 
+
+textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+::placeholder{
+    padding: 10px;
+}
+
+
+.hirebtn{
+    background-color: #2C3965;
+    color: #BD9F59;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    width: 200px;
+    text-align: center;  
+    align-self: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+}
+
+.hirebtn:hover{
+    color: #fff;
+    background-color: #BD9F59;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+@media(max-width:600px){
+
+    /*porfolio phone view*/
+    .image{
+        position: static;
+        margin-top:5px;
+        margin-bottom:10px;
+       
+    }
+
+    .name{
+            
+            color: #2C3965;
+            margin-left: 0px;
+    }
+
+    p{
+        font-size:14px ;
+        line-height: 24px;
+    }
+
+    .responsibilities ul li{
+        font-size: 14px;
+    }
+
+    .porfolio{
+        margin: 15px 25px;
+             }
+
+           .blue-bg{
+            position: static;
+            margin-bottom:15px;
+            margin-top: 5px;
+            background-color: #2C3965;
+            color: #ccc;
+            padding: 20px 30px;
+            height: 60vh;
+            width: 100%;
+            border-radius: 25px;
+            }
+
+            .mediatxt h5{
+                font-size: 16px;
+            }
+
+            .mediatxt h6{
+                font-size: 16px;
+            }
+
+            .mediatxt{
+                width:220px;
+                margin-left: 25px;
+                text-align: left;
+
+            }
+
+            .media{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 48PX;
+                padding-right: 48PX;
+            }
+            
+.workexperience{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   color: #2C3965;
+}
+
+.training li{
+    width: 280px;
+}
+
+.training h3{
+    width: 50px;
+}
+
+.line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line2{
+    width: 75%;
+    margin-left: 35px;
+}
+         
+/*landing page phone view*/
+nav{
+    width: 100%;
+    height: 50px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+
+
+.contaiiner{
+    background-image: url(../images/careerpix.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.bgtext{
+    color: #2C3965;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 30px; 
+}
+
+.fontinline h1{
+    display: inline;
+}
+
+.bgtextcontainer{
+      flex-direction: column;
+}
+
+.bigcircle{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #2C3965;
+    top:80px;
+    left: 290px;
+}
+
+.smallcircle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid #BD9F59;
+    top: 80px;
+    right: 70px;
+    position: absolute;
+}
+
+.colorcircle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #2C3965;
+    top: 160px;
+    right: 130px;
+    position: absolute;
+    background-color:#2C3965;   
+}
+
+.bgtext{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;  
+    font-size: 13px;
+}
+
+.tool{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: #2C3965;
+    line-height: 65px;
+    width: 10px;
+}
+
+.tooltip{
+    position: relative;
+    display: block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/*hire me phone view*/
+.hireForm{
+    width: 100%;
+    height: 100vh;
+    padding:0 ;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 90vh;
+}
+
+.navhire{
+    padding: 20px;
+    height: 60px;
+  }
+
+input{
+    height: 50px;
+}
+
+textarea{
+    margin-top: 20px;
+    height: 100px;
+}
+
+.hirebtn{
+    margin-top: 10px;
+    margin-left: 40%;
+  
+}
+
+.hirebtn:hover{
+    color: #fff;
+    background-color: #BD9F59;
+    transition: 0.5s ease-in-out;
+}
+
+}
+
+
+
+/*tablet view*/
+/*@media(max-width:1000px){
+    .blue-bg{
+        height:fit-content;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.hireForm{
+    width: 100%;
+    height: 100vh;
+    padding:0 ;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 90vh;
+}
+
+.navhire{
+    padding: 20px;
+    height: 60px;
+  }
+
+
+
+
+input{
+    height: 50px;
+}
+
+textarea{
+    margin-top: 20px;
+    height: 100px;
+}
+
+.hirebtn{
+    margin-top: 10px;
+    margin-left: 40%;
+  
+}
+
+.hirebtn:hover{
+    color: #fff;
+    background-color: #BD9F59;
+    transition: 0.5s ease-in-out;
+}
+
+}
