@@ -123,7 +123,24 @@ nav div:first-child {
 .bgtext .download {
     color: #2C3965;
     background: #BD9F59;
-    margin-top: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;  
+}
+
+.bgtext .download:hover {
+    background-color: #2C3965;
+    color: #BD9F59;
+    transition: 0.5s ease-in-out;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+
+.bgtext h2{
+    margin-bottom: 10px;
 }
 
 .bgtext button {
